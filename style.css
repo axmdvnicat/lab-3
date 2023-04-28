@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #58614E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 40px;
+}
+
+header ul {
+    display: flex;
+    padding-right: 180px;
+
+}
+
+header ul li {
+    margin-right: 20px;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: space-between;
+    color: #58614E;
+    background-color: #E2E2E2;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.sec1 .left {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+.sec1  h1 {
+    padding-bottom: 20px;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.sec1 .left p {
+    padding-right: 200px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.sec1 .left p a {
+    color: #58614E;
+}
+
+.sec1 .right {
+    padding-top: 20px;
+    border-left: 2px solid;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+.sec1 .right p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 80px;
+}
+
+.sec1 h2 {
+    padding-bottom: 20px;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.sec1 .right p {
+    font-size: 20px;
+}
+
+.sec2 {
+    background-color: #D2D2D2;
+    padding-left: 30px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+}
+.sec2 h1 {
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #58614E;
+    padding: 30px 0;
+}
+
+.sec2 .boxs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec2 .boxs .box {
+    width: 340px;
+    height: 480px;
+    align-items: center;
+    background-color:#d4d6d4;
+}
+.sec2 .boxs img {
+    width: 340px;
+    height: 250px;
+    margin-bottom: 15px;
+    border: 5px solid white;
+}
+
+.box p, span {
+    color: #777777;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box span {
+    padding-top: 15px;
+}
+.box p {
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+
+.box a {
+    text-decoration: none;
+    color: white;
+    padding: 16px 32px;
+    background-color: #58614E;
+    border-radius: 4px;
+}
